@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: suds-hand-car-wash
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
